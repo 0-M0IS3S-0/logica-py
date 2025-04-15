@@ -1,0 +1,9 @@
+# Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+
+r = int(input("digite o valor do raio inteiro:\n\n"))
+
+area = r * r
+area1 = (r * r) * 3.14
+
+print(f"valor exato \n{area}\n")
+print(f"valor aproximado usando π:\n{area1}")
