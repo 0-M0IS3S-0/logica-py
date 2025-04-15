@@ -1,0 +1,20 @@
+# Faça um Programa que converta metros para centímetros.
+
+# primeira forma:
+
+print("numero 10 de m para cm\n")
+
+n = 10 * 100
+
+print(f"o numero é {n}\n\n")
+
+#------------------------------------------------------------
+
+# forma dois
+
+print("\n\n=== SEGUNDA FORMA ===\n\n")
+n1 = int(input("digite um numero inteiro em m para convertermos em cm:\n\n"))
+
+result = n1 * 100
+
+print(f"resultado:\n {result}")
