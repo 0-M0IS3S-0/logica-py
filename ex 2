@@ -1,0 +1,8 @@
+# Faça um Programa que peça dois números e imprima a soma.
+
+n1 = int(input("\ndigite o primeiro n:\n"))
+n2 = int(input("\ndigite o segundo n\n"))
+
+resultado = n1+n2
+
+print(f"o resultado é \n{resultado}")
